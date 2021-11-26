@@ -1,13 +1,79 @@
+body {
+    background-color: lavenderblush;
+    overflow: auto;
+}
 h1 {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 10px solid #0F0326;
+    background-color: #0F0326;
+    color: white;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width: 1368px;
+}
+h2 {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+
+}
+#indice {
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+}
+#Foto {
+    border: 10px solid #0F0326;
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    z-index: 4;
+    padding: #3B6064 ;
+}
+#Sobre-mim {
+    top: 355px;
+    position: absolute;
+    left: 500px;
+    font-size: 25px;
+    z-index: 5;
 }
 #Descricao {
-    font-family:monospace;
-    font-style:oblique;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 10px solid #0F0326;
+    background-color: #0F0326;
+    color: white;
+    font-size: 15px;
+    width: 450px;
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    z-index: 6;
 }
-body {
-    background-color:lavenderblush;
+#Competências {
+    position: absolute;
+    z-index: 7;
+    top: 700px;
+    font-size: 25px;
 }
 .Habilidades {
-    font-size: 20px;
+    font-size: 18px;
+    font-style: oblique;
+}
+#lista-skills {
+    position: absolute;
+    z-index: 8;
+    top: 760px;
+}
+h4 {
+    position: absolute;
+    z-index: 9;
+    top: 900px;
+    font-size: 25px;
+}
+#link-blog {
+    position: absolute;
+    z-index: 10;
+    top: 970px;
+    font-size: 18px;
 }
